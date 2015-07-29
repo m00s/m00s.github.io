@@ -75,18 +75,6 @@ footer ul {
   cursor: pointer;
 }
 
-.social-btn__tw {
-  background-image: url('../images/social-tw.png');
-}
-
-.social-btn__gh {
-  background-image: url('../images/social-gh.png');
-}
-
-.social-btn__fb {
-  background-image: url('../images/social-fb.png');
-}
-
 #heart {
     position: relative;
     margin-left: auto;

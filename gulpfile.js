@@ -43,7 +43,8 @@ var PATH = {
     },
     prod: {
       all: 'dist/prod',
-      lib: 'dist/prod/lib'
+      lib: 'dist/prod/lib',
+      img: 'dist/prod/images'
     }
   },
   src: {
@@ -212,6 +213,11 @@ gulp.task('build.js.prod', ['build.js.tmp'], function() {
     { minify: true }).catch(function (e) { console.log(e); });
 });
 
+gulp.task('build.images.prod', ['build.js.tmp'], function () {
+  return gulp.src(['./app/images/*.*'])
+    .pipe(gulp.dest(PATH.dest.prod.img));
+});
+
 gulp.task('build.init.prod', function() {
   var result = gulp.src('./app/init.ts')
     .pipe(plumber())
@@ -250,7 +256,7 @@ gulp.task('build.index.prod', function() {
 gulp.task('build.app.prod', function (done) {
   // build.init.prod does not work as sub tasks dependencies so placed it here.
   runSequence('clean.app.prod', 'build.init.prod', 'build.assets.prod',
-              'build.index.prod', 'clean.tmp', done);
+              'build.images.prod', 'build.index.prod', 'clean.tmp', done);
 });
 
 gulp.task('build.prod', function (done) {
