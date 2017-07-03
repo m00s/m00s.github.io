@@ -93,6 +93,18 @@ html, body {
   cursor: pointer;
 }
 
+#social__bar {
+  width: 20%;
+  position: absolute;
+  bottom: 2%;
+  right: 10px;
+  text-align: right;
+}
+
+#social__bar > a {
+  margin-right: 15px;
+}
+
 .bubble {
   border-radius: 50%;
   position: absolute;
@@ -104,6 +116,7 @@ html, body {
   height: 110px;
   top: 6%;
   left: 25%;
+  transition: all 2s;
 }
 
 .bubble__blue {
@@ -112,6 +125,7 @@ html, body {
   height: 170px;
   top: 47%;
   left: 20%;
+  transition: all 2s;
 }
 
 .bubble__green {
@@ -120,6 +134,7 @@ html, body {
   height: 75px;
   bottom: 10%;
   right: 30%;
+  transition: all 2s;
 }
 
 @media (min-width: 1100px) and (max-width: 1500px) {
@@ -214,6 +229,11 @@ html, body {
     right: 25%;
     transition: all 2s;
   }
+
+  #social__bar {
+    width: 50%;
+    transition: all 2s;
+  }
 }
 
 @media (max-width: 700px) {
@@ -284,6 +304,22 @@ html, body {
     bottom: 7%;
     left: 2%;
     right: auto;
+    transition: all 2s;
+  }
+
+  #__links {
+    width: 50%;
+    text-align: left;
+    transition: all 2s;
+    left: 10px;
+  }
+
+  #__links > a {
+    font-size: 12px;
+  }
+
+  #social__bar {
+    width: 50%;
     transition: all 2s;
   }
 }
