@@ -18,14 +18,13 @@ html, body {
 #page_wrapper, body {
   display: block;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #heading {
   position: relative;
   width: 100%;
   display: block;
-  //background-color: red;
   padding-left: 32%;
   margin-top: 8%;
 }
@@ -145,6 +144,7 @@ html, body {
     height: 80px;
     top: 11%;
     left: 21%;
+    transition: all 2s;
   }
 
   .bubble__blue {
@@ -152,6 +152,7 @@ html, body {
     height: 140px;
     top: 47%;
     left: 17%;
+    transition: all 2s;
   }
 
   .bubble__green {
@@ -160,16 +161,19 @@ html, body {
     height: 50px;
     bottom: 25%;
     right: 22%;
+    transition: all 2s;
   }
 }
 
 @media (min-width: 700px) and (max-width: 1100px) {
   #heading__title {
     font-size: 90px;
+    transition: all 2s;
   }
 
   #heading__name {
     font-size: 60px;
+    transition: all 2s;
   }
 
   #profile {
@@ -178,10 +182,12 @@ html, body {
     top: 10%;
     left: 5%;
     background-size: auto 160px;
+    transition: all 2s;
   }
 
   #about_me__wrapper {
     padding-left: 20%;
+    transition: all 2s;
   }
 
   .bubble__yellow {
@@ -189,6 +195,7 @@ html, body {
     height: 60px;
     top: 8%;
     left: 16%;
+    transition: all 2s;
   }
 
   .bubble__blue {
@@ -196,6 +203,7 @@ html, body {
     height: 100px;
     top: 35%;
     left: 7%;
+    transition: all 2s;
   }
 
   .bubble__green {
@@ -204,21 +212,26 @@ html, body {
     height: 40px;
     bottom: 30%;
     right: 25%;
+    transition: all 2s;
   }
 }
 
 @media (max-width: 700px) {
   #heading {
     margin-top: 7%;
+    transition: all 2s;
+    margin-left: 20px;
   }
 
   #heading__title {
-    font-size: 40px;
+    font-size: 35px;
     display: block;
+    transition: all 2s;
   }
 
   #heading__name {
-    font-size: 35px;
+    font-size: 25px;
+    transition: all 2s;
   }
 
   #profile {
@@ -227,16 +240,24 @@ html, body {
     top: 2%;
     left: 4%;
     background-size: auto 100px;
+    transition: all 2s;
   }
 
   #about_me__wrapper {
     padding: 0;
+    transition: all 2s;
   }
 
   #aboutme__text {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    transition: all 2s;
+  }
+
+  #aboutme__text > p {
+    margin-bottom: 10px;
+    font-size: 15px;
   }
 
   .bubble__yellow {
@@ -244,14 +265,16 @@ html, body {
     height: 50px;
     top: 0.3%;
     left: 19%;
+    transition: all 2s;
   }
 
   .bubble__blue {
     width: 100px;
     height: 100px;
     top: 16%;
-    right: -35px;
+    right: -50px;
     left: auto;
+    transition: all 2s;
   }
 
   .bubble__green {
@@ -261,5 +284,6 @@ html, body {
     bottom: 7%;
     left: 2%;
     right: auto;
+    transition: all 2s;
   }
 }
