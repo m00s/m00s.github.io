@@ -15,6 +15,10 @@ html, body {
   color: #4A4A4A;
 }
 
+b {
+  font-weight: 400;
+}
+
 #page_wrapper, body {
   display: block;
   height: 100%;
