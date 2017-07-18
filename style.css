@@ -73,7 +73,8 @@ html, body {
 #__links {
   width: 100%;
   position: absolute;
-  padding-bottom: 2%;
+  padding-bottom: 15px;
+  padding-top: 5px;
   bottom: 0;
   text-align: center;
   background-color: white;
@@ -96,7 +97,7 @@ html, body {
 #social__bar {
   width: 20%;
   position: absolute;
-  bottom: 2%;
+  bottom: 15px;
   right: 10px;
   text-align: right;
 }
@@ -308,10 +309,11 @@ html, body {
   }
 
   #__links {
-    width: 50%;
-    text-align: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
     transition: all 2s;
-    left: 10px;
+    padding-top: 10px;
   }
 
   #__links > a {
@@ -319,7 +321,11 @@ html, body {
   }
 
   #social__bar {
-    width: 50%;
+    width: 100%;
+    position: relative;
+    text-align: center;
     transition: all 2s;
+    right: 0;
+    bottom: 0;
   }
 }
