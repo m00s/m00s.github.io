@@ -28,6 +28,10 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-weight: inherit;
+}
+
 #heading {
   position: relative;
   width: 100%;
