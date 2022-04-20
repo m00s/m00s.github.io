@@ -36,7 +36,7 @@ h1 {
   position: relative;
   width: 100%;
   display: block;
-  padding-left: 32%;
+  padding-left: 35%;
   margin-top: 8%;
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 #about-me__text {
-  width: 500px;
+  width: 525px;
 }
 
 #about-me__text > p {
@@ -262,7 +262,7 @@ h1 {
   }
 
   #heading__name {
-    font-size: 25px;
+    font-size: 60px;
     transition: all 2s;
   }
 
@@ -289,7 +289,7 @@ h1 {
 
   #about-me__text > p {
     margin-bottom: 20px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .bubble__yellow {
@@ -303,7 +303,7 @@ h1 {
   .bubble__blue {
     width: 100px;
     height: 100px;
-    top: 16%;
+    top: 25%;
     right: -50px;
     left: auto;
     transition: all 2s;
