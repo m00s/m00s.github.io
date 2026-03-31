@@ -2,72 +2,214 @@
 <html lang="en">
 
 <head>
-  <title>Massimiliano Sartoretto</title>
-  <meta name="viewport" content="width=device-width" />
-  <meta name="description" content="Staff Engineer at Trade Republic" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Massimiliano Sartoretto — Staff Engineer</title>
+  <meta name="description"
+    content="Massimiliano Sartoretto is a Staff Engineer at Trade Republic, building and supporting engineering teams across Cybersecurity, HealthTech, and FinTech." />
 
-  <meta property="og:image" content="/assets/profile.jpg" />
-  <meta property="og:title" content="Massimiliano Sartoretto" />
-  <meta property="og:description" content="Staff Engineer at Trade Republic" />
-  <meta property="og:url" content="https://massimilianosartoretto.com" />
-  <meta name="twitter:title" content="Massimiliano Sartoretto" />
-  <meta name="twitter:description" content="Staff Engineer at Trade Republic" />
-  <meta name="twitter:image" content="/assets/profile.jpg" />
+  <link rel="canonical" href="https://massimilianosartoretto.com/" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Massimiliano Sartoretto" />
+  <meta property="og:title" content="Massimiliano Sartoretto — Staff Engineer" />
+  <meta property="og:description"
+    content="Staff Engineer at Trade Republic. Building and supporting engineering teams across Cybersecurity, HealthTech, and FinTech." />
+  <meta property="og:url" content="https://massimilianosartoretto.com/" />
+  <meta property="og:image" content="https://massimilianosartoretto.com/assets/profile.jpg" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Massimiliano Sartoretto — Staff Engineer" />
+  <meta name="twitter:description"
+    content="Staff Engineer at Trade Republic. Building and supporting engineering teams across Cybersecurity, HealthTech, and FinTech." />
+  <meta name="twitter:image" content="https://massimilianosartoretto.com/assets/profile.jpg" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Massimiliano Sartoretto",
+      "url": "https://massimilianosartoretto.com",
+      "jobTitle": "Staff Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Trade Republic",
+        "url": "https://traderepublic.com"
+      },
+      "sameAs": [
+        "https://github.com/m00s",
+        "https://x.com/max_sartoretto"
+      ]
+    }
+  </script>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background-color: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .page {
+      max-width: 38rem;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .about p {
+      margin-bottom: 1rem;
+    }
+
+    .about p:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: #0969da;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.15em;
+    }
+
+    a:hover {
+      color: #0550ae;
+    }
+
+    a:focus-visible {
+      outline: 2px solid #0969da;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    .social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+      list-style: none;
+    }
+
+    .social a {
+      display: inline-flex;
+      align-items: center;
+      color: #57606a;
+      transition: color 0.15s ease;
+    }
+
+    .social a:hover {
+      color: #1a1a1a;
+    }
+
+    .social svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      fill: currentColor;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #e6edf3;
+        background-color: #0d1117;
+      }
+
+      a {
+        color: #58a6ff;
+      }
+
+      a:hover {
+        color: #79c0ff;
+      }
+
+      a:focus-visible {
+        outline-color: #58a6ff;
+      }
+
+      .social a {
+        color: #8b949e;
+      }
+
+      .social a:hover {
+        color: #e6edf3;
+      }
+    }
+  </style>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102791125-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-102791125-1');
   </script>
 </head>
 
-<body bgcolor="white">
-  <div id="page_wrapper">
-    <div id="heading">
-      <h1> Hello, I'm Max!</h1>
-    </div>
+<body>
+  <main class="page">
+    <header>
+      <h1>Hello, I'm Max!</h1>
+    </header>
 
-    <div id="about-me__wrapper">
-      <div id="about-me__text">
-        <p>
-          During the last decade, I shaped multiple award-winning products in
-          <a href="https://www.vpnvision.com/" target="_blank">Cybersecurity</a>,
-          <a href="https://www.hillrom.eu/en/solutions/helion-integrated-surgical-system-solutions/"
-            target="_blank">HealthTech</a>,
-          and <a href="https://www.klarna.com/uk/card/" target="_blank">FinTech</a>.
-        </p>
-        <p>
-          Today I combine my expertise in <b>leadership</b> with my passion for <b>people</b> and <b>technology</b> by
-          building and supporting engineering teams.
-        </p>
-        <p>
-          Currently serving as Staff Engineer at <a href="https://traderepublic.com/" target="_blank">Trade Republic</a>.
-        </p>
-      </div>
-    </div>
+    <section class="about" aria-label="About me">
+      <p>
+        During the last decade, I shaped multiple award-winning products in
+        <a href="https://www.vpnvision.com/" target="_blank" rel="noopener noreferrer">Cybersecurity</a>,
+        <a href="https://www.hillrom.eu/en/solutions/helion-integrated-surgical-system-solutions/" target="_blank"
+          rel="noopener noreferrer">HealthTech</a>,
+        and <a href="https://www.klarna.com/uk/card/" target="_blank" rel="noopener noreferrer">FinTech</a>.
+      </p>
+      <p>
+        Today I combine my expertise in <strong>leadership</strong> with my passion for <strong>people</strong> and
+        <strong>technology</strong> by building and supporting engineering teams.
+      </p>
+      <p>
+        Currently serving as Staff Engineer at
+        <a href="https://traderepublic.com/" target="_blank" rel="noopener noreferrer">Trade Republic</a>.
+      </p>
+    </section>
 
-    <div id="social__bar">
-      <a title="LinkedIn" target="_blank" rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/massimilianosartoretto/">
-        <img src="./assets/icons/in.svg" width="20" alt="Linkedin Logo" /></a>
-      <a title="Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/max_sartoretto">
-        <img src="./assets/icons/tw.svg" width="20" alt="Twitter Logo" /></a>
-      <a title="Github" target="_blank" rel="noopener noreferrer" href="https://github.com/m00s">
-        <img src="./assets/icons/gh.svg" width="20" alt="Github Logo" /></a>
-      <a title="StackOverflow" target="_blank" rel="noopener noreferrer"
-        href="https://stackoverflow.com/users/4544288/massimiliano-sartoretto">
-        <img src="./assets/icons/stackoverflow.svg" width="20" alt="Stackoverflow Logo" /></a>
-    </div>
-
-  </div>
+    <nav aria-label="Social media links">
+      <ul class="social">
+        <li>
+          <a href="https://github.com/m00s" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/max_sartoretto" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </main>
 </body>
 
 </html>
